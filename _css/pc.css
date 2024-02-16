@@ -1,0 +1,30 @@
+/*PC用CSS*/
+
+body {
+    /*min-width: 98vw;
+    min-height: 98vh;*/
+  /*  max-width: 98vw;
+    max-height: 98vh;*/
+}
+
+/* 横サイズが小さい */
+@media (max-width: 1100px) {	
+	#toppage h1 {
+		top: 49%;
+		left: 50%;
+		background-size: 90%;
+		width: 100vw;
+		height:70vh;
+	}
+	#top_link {		
+		top: 74%;
+		left: 50%;
+		width: 58vw;
+	}
+	#footer .description {
+		font-size:45%;
+	}
+	#noel_chan {
+		background-position-y: 20%;
+	}
+}
